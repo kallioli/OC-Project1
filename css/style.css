@@ -1,0 +1,174 @@
+/* Define Fonts for project*/
+
+@font-face {
+    font-family: 'roboto-black';
+    src: url('../fonts/roboto-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-black.woff2') format('woff2'),
+         url('../fonts/roboto-black.woff') format('woff'),
+         url('../fonts/roboto-black.ttf') format('truetype'),
+         url('../fonts/roboto-black.svg#robotoblack') format('svg');
+    src: url('../fonts/roboto-black.eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('../fonts/roboto-bold.eot');
+    src: url('../fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold.woff2') format('woff2'),
+         url('../fonts/roboto-bold.woff') format('woff'),
+         url('../fonts/roboto-bold.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('../fonts/roboto-medium.eot');
+    src: url('../fonts/roboto-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium.woff2') format('woff2'),
+         url('../fonts/roboto-medium.woff') format('woff'),
+         url('../fonts/roboto-medium.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto-regular.ttf') format('truetype'),
+         url('../fonts/roboto-regular.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Global Rules */
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'roboto-black', Verdana, sans-serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'roboto-bold', Verdana, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'roboto-medium', Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+p {
+    font-family: 'roboto-medium', Verdana, sans-serif;
+}
+
+.main_block {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 1367px;
+    margin: auto;
+}
+
+/* Header Zone */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: 0;
+    z-index: 5;
+    height: 100px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+nav {
+    margin-right: 150px;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c5c5c;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 36px;
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-top: 3px solid #5cacd2;
+    color: black;
+}
+
+
+/* Slider Zone */
+
+.slider {
+    margin-top: 100px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slider-info {
+    width: 35%;
+    top: 35%;
+    left: 22%;
+    position: absolute;
+}
+
+.slider-info h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.slider-info p {
+    color: #fff;
+}
+
+.slider-info span {
+    color: #5cacd2;
+}
+
+/* Service Zone */
+
