@@ -1,13 +1,13 @@
-/* Define Fonts for project*/
+/* Define Fonts for project
 
 @font-face {
     font-family: 'roboto-black';
+    src: url('../fonts/roboto-black.eot');
     src: url('../fonts/roboto-black.eot?#iefix') format('embedded-opentype'),
          url('../fonts/roboto-black.woff2') format('woff2'),
          url('../fonts/roboto-black.woff') format('woff'),
          url('../fonts/roboto-black.ttf') format('truetype'),
          url('../fonts/roboto-black.svg#robotoblack') format('svg');
-    src: url('../fonts/roboto-black.eot');
     font-weight: normal;
     font-style: normal;
 
@@ -50,16 +50,20 @@
 
 }
 
+*/
+
 /* Global Rules */
 
 body {
     margin: 0;
     background-color: #fff;
-    font-family: Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
-    font-family: 'roboto-black', Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 26px;
     margin-bottom: 15px;
 }
@@ -76,7 +80,8 @@ h3 {
 }
 
 p {
-    font-family: 'roboto-medium', Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .main_block {
@@ -114,6 +119,7 @@ header {
 
 nav {
     padding-top: 20px;
+    border-top: 3px solid #fff;
 }
 
 nav ul {
@@ -127,7 +133,8 @@ nav a {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 36px;
-    font-family: roboto-medium, Verdana, sans-serif;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
     font-size: 1em;
 }
 
@@ -143,28 +150,54 @@ nav a:hover {
     margin-top: 100px;
 }
 
+.slider-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .slider img {
     width: 100%;
 }
 
 .slider-info {
-    width: 35%;
-    top: 35%;
-    left: 22%;
+    width: 40%;
+    top: 33%;
     position: absolute;
 }
 
 .slider-info h1 {
     text-transform: uppercase;
     color: #fff;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+    font-size: 45px;
 }
 
 .slider-info p {
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .slider-info span {
     color: #5cacd2;
+}
+
+.info-button {
+    width: 100px;
+	text-align: center;
+	background-color: #5cacd2;
+	border-radius: 4px;
+	border-bottom: 3px solid #4493ba;
+	padding: 10px 15px 10px 15px;
+}
+
+.info-button a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 /* Service Zone */
