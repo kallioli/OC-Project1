@@ -69,14 +69,17 @@ h1 {
 }
 
 h2 {
-    font-family: 'roboto-bold', Verdana, sans-serif;
-    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
     text-align: center;
 }
 
 h3 {
-    font-family: 'roboto-medium', Verdana, sans-serif;
+    font-family: 'roboto-medium', sans-serif;
     font-size: 1.1em;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 p {
@@ -103,6 +106,7 @@ header {
     margin-bottom: 0;
     z-index: 5;
     height: 100px;
+    background-color: #fff;
 }
 
 .header-menu {
@@ -167,7 +171,7 @@ nav a:hover {
 	width: 14%;
 	display: block;
 	position: relative;
-	background-color: rgb(92,173,211,1);
+	background-color: #5cacd2;
     height: 0.3vw;
     transition: 1s;
     content: ' ';
@@ -221,7 +225,6 @@ nav a:hover {
 }
 
 .slider-info > h1 {
-	font-family:'roboto-bold';
 	text-transform: uppercase;
 	font-size: 2.0vw;
 	line-height: 1em;
@@ -235,7 +238,7 @@ nav a:hover {
 }
 
 .info-title {
-	color: rgba(92,173,211,1);
+	color: #5cacd2;
 }
 
 .btn-more-info {
@@ -246,13 +249,14 @@ nav a:hover {
 	padding-left: 0.8vw;
 	border-radius: 4px;
 	cursor: pointer;
-	background-color: rgba(92,173,211,1);
+	background-color: #5cacd2;
 	color: white;
 	font-weight: bold;
 	border: none;
 	border-bottom: 3px solid rgb(70,140,173);
 	position: absolute;
-	margin-top: 1.4vw;
+    margin-top: 1.4vw;
+    text-decoration: none;
 }
 
 .btn-more-info:hover {
@@ -312,3 +316,160 @@ nav a:hover {
 
 /* Service Zone */
 
+#services {
+    padding-top: 40px;
+	padding-bottom: 55px;
+}
+
+.our-services {
+    height: 90px;
+	margin-top: -90px;
+}
+
+.separation-bar {
+    margin-bottom: 24px;
+}
+
+.separation-bar hr {
+	width: 65px;
+	height: 1px;
+	border : none;
+	background-color: black;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.3;
+}
+
+.title-circle {
+    font-size: 1.2em;
+	color: rgba(92,173,211,1);
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.upper-title {
+    text-transform: uppercase;
+}
+
+.services-description {
+    width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.services-description p {
+    width: 60%;
+    margin: auto;
+    font-weight: 600;
+    color: #686c71;
+    line-height: 2em;
+}
+
+.services-details-container {
+    display: flex;
+}
+
+.services-right {
+    justify-content: center;
+    display: flex;
+	margin: auto;
+	width: 35%;
+}
+
+.img-services {
+        display: block;
+        max-height: 417px;
+        width: 120%;
+        height: 100%;
+}
+
+.services-left {
+    justify-content: center;
+    display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.service-detail {
+    display: flex;
+}
+
+.service-logo {
+    display: flex;
+	position: relative;
+	top: -12px;
+	width: 125px;
+	min-width: 125px;
+	justify-content: center;
+}
+
+.icon {
+	font-size: 1.8em;
+	justify-content: center;
+	margin: auto;
+}
+
+.blue-point {
+	position: relative;
+	left: -26px;
+	background-color: white;
+	color: rgba(92,173,211,1);
+	justify-content: center;
+	margin: auto;
+}
+
+.fa-line-chart
+{
+	color: rgba(92,173,211,1);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fa-cubes
+{
+	color: #5cacd2;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fa-pie-chart {
+    color: #5cacd2;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.text-zone {
+	width: 80%;
+}
+
+.text-zone p {
+    line-height: 1.8em;
+    font-weight: 500;
+    color: #686c71;
+    margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+
+
+/* Portfolio Zone */
