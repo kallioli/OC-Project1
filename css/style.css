@@ -54,6 +54,10 @@
 
 /* Global Rules */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: #fff;
@@ -474,6 +478,63 @@ nav a:hover {
 	padding: 0;
 }
 
-
-
 /* Portfolio Zone */
+
+#projects {
+    padding-top: 40px;
+	padding-bottom: 55px;
+	background-color: rgb(245, 245, 245);
+}
+
+.our-projects {
+    height: 90px;
+	margin-top: -90px;
+}
+
+.projects-description {
+    width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.projects-description p {
+    width: 60%;
+    margin: auto;
+    font-weight: 600;
+    color: #686c71;
+    line-height: 2em;
+}
+
+.projects-menu {
+	background-color: rgba(229,229,229,1);
+	display: flex;
+	flex-wrap: nowrap;
+	position: relative;
+	justify-content: center;
+	width: 80%;
+	min-width: 0;
+	height: 50px;
+	margin: auto;
+	border: 1px solid rgb(229,229,229);
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.button{
+	position: relative;
+	font-family: 'Roboto' sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+	width: 25%;
+	color: rgba(85,85,85,1);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: none;
+	background-color: rgb(229,229,229);
+	cursor: pointer;
+}
