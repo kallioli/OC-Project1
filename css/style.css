@@ -509,32 +509,118 @@ nav a:hover {
 
 .projects-menu {
 	background-color: rgba(229,229,229,1);
-	display: flex;
-	flex-wrap: nowrap;
-	position: relative;
-	justify-content: center;
-	width: 80%;
-	min-width: 0;
-	height: 50px;
-	margin: auto;
-	border: 1px solid rgb(229,229,229);
-	border-radius: 5px;
-	margin-top: 50px;
-	margin-bottom: 40px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	position: relative;
+ 	justify-content: center;
+ 	width: 420px;
+ 	min-width: 420px;
+ 	height: 50px;
+ 	margin: auto;
+ 	border: 1px solid rgb(229,229,229);
+ 	border-radius: 5px;
+ 	margin-top: 50px;
+ 	margin-bottom: 40px;
 }
 
-.button{
+.button {
 	position: relative;
-	font-family: 'Roboto' sans-serif;
-	font-weight: bold;
-	font-size: 0.9em;
-	width: 25%;
-	color: rgba(85,85,85,1);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-	border: none;
-	background-color: rgb(229,229,229);
-	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+ 	font-size: 0.9em;
+ 	width: 105px;
+ 	color: rgba(85,85,85,1);
+ 	padding-top: 12px;
+ 	padding-bottom: 12px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	border: none;
+ 	background-color: rgb(229,229,229);
+ 	cursor: pointer;
+}
+
+.button:focus {
+	background-color: rgba(92,173,211,1);
+	border-bottom: 4px solid rgb(70,140,173);
+	border-radius: 5px;
+	color: white;
+}
+
+.button:hover {
+	background-color: rgba(92,173,211,1);
+	border-bottom: 4px solid rgb(70,140,173);
+	border-radius: 5px;
+	color: white;
+}
+
+.cursor {
+	display: inline-block;
+    background-color: rgb(245,245,245);
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid rgb(70,140,173);
+    top: 49px;
+    left: 45px;
+}
+
+.cursor {
+	display: none;
+}
+.button:focus .cursor {
+	display: inline-block;
+}
+
+.fa-eye
+{
+	position: absolute;
+	font-size: 1.2em;
+	color: white;
+	right: 15px;
+	bottom: 60px;
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: rgb(70,140,173);
+	padding: 15px;
+}
+
+.projects-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.thumbnails {
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 23%;
+}
+
+.thumbnails img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0;
+	bottom: -80px;
+}
+
+.thumbnails:hover .overlay {
+	display: block;
+	height: 80px;
+	bottom: 0px;
+	opacity: 1;
+	transition: 1s
 }
