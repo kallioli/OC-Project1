@@ -80,7 +80,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'roboto-medium', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
     font-size: 1.1em;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -636,4 +637,98 @@ nav a:hover {
 	bottom: 0px;
 	opacity: 1;
 	transition: 0.5s
+}
+
+/* Portfolio Zone */
+
+.contact-container {
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	display: flex;
+}
+
+.map-background {
+	width: 100%;
+	filter: brightness(90%);
+	-webkit-filter: brightness(90%);
+}
+
+.map-background:hover {
+	filter: none;
+	-webkit-filter: none;
+}
+
+iframe{
+	position: relative;
+}
+
+.form-container {
+	height: 580px;
+	width: 20%;
+	min-width: 20%;
+	position: absolute;
+	margin-left: 72%;
+	margin-top: 3%;
+	background-color: rgba(255,255,255,0.8);
+	overflow: hidden;
+	z-index: 2;
+}
+
+.form-content {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.form-content h3 {
+	font-size: 1.6em;
+	margin-top: 20px;
+}
+
+.form-content p {
+	font-size: 0.9em;
+}
+
+.contact-title {
+	font-weight: bold;
+}
+
+.tel {
+	text-decoration: underline dotted;
+}
+
+.form-field {
+	width: 94%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+.message-field {
+	width: 94%;
+	height: 170px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	font-size: 1.1em;
+	margin: 10px 0 10px 0;
+}
+
+.form-button {
+	border-radius: 5px;
+	font-size: 1em;
+	color: white;
+	background-color: rgba(92,173,211,1);
+	border-bottom: 3px solid rgb(70,140,173);
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px 0 0 0;
 }
