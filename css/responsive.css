@@ -1,4 +1,35 @@
 @media screen and (max-width: 530px) {
+    /* Services Zone */
+
+    .services-details-left {
+        display: none;
+    }
+
+    .services-details-right {
+		width: 90%;
+		margin: auto;
+	}
+    
+    /* Portfolio Zone */
+
+
+    /* Contact Form Zone */
+
+    .contact-container {
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .map-background {
+        background-color: rgb(245,245,245);
+    }
+
+	.form-container {
+		position: static;
+		margin: auto;
+		width: 100%;
+		background-color: rgb(245,245,245);
+	}
 
     
 }
