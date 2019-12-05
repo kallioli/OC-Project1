@@ -1,4 +1,9 @@
 @media screen and (max-width: 530px) {
+
+    .spacer {
+        display: none;
+    }
+    
     /* Services Zone */
 
     .services-details-left {
