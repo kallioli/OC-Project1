@@ -29,7 +29,11 @@
 		margin: auto;
 		width: 100%;
 		background-color: rgb(245,245,245);
-	}
+    }
+    
+    .form-content p {
+        line-height: 1.53em;
+    }
 
     
 }
