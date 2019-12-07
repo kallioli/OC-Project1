@@ -42,16 +42,17 @@
     nav ul {
         display: flex;
         list-style-type: none;
+        justify-content: center;
         margin-block-start: auto;
         margin-block-end: auto;
         padding-inline-start: unset;
-        width: 90%;
+        width: 100%;
     }
 
     nav a {
-        padding-right: 5px;
-        padding-left: 5px;
-        font-size: 0.9em;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 1em;
         padding-top: 0;
     }
 
@@ -173,6 +174,12 @@
 }
 
 @media screen and (min-width: 531px) and (max-width: 768px) {
+
+    /* Services Zone */
+
+    .service-logo {
+        left: 111px;
+    }
 
 }
 
