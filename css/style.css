@@ -183,16 +183,16 @@ nav a:hover {
 	color: white;
 }
 
-.slider-info > h1 {
+.slider-info h1 {
 	text-transform: uppercase;
-	font-size: 3.0vw;
+	font-size: 3em;
 	line-height: 1em;
 	margin: 0;
 }
 
-.slider-info > p {
+.slider-info p {
 	font-weight: bold;
-	font-size: 1.4vw;
+	font-size: 1.1em;
 	margin-top: 3%;
 }
 
@@ -201,7 +201,7 @@ nav a:hover {
 }
 
 .btn-more-info {
-	font-size: 2vw;
+	font-size: 1.5em;
 	padding-top: 0.7vw;
 	padding-bottom: 0.7vw;
 	padding-right: 1vw;
