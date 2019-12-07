@@ -98,6 +98,10 @@
         text-align: center;
     }
 
+    .icon-space {
+        padding-right: 4px;
+    }
+
     .text-zone p {
         text-align: justify;
     }
@@ -131,7 +135,7 @@
     }
 
     .cursor {
-        left: 28px;
+        left: 40%;
     }
 
     .project-content {

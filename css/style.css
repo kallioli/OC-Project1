@@ -379,6 +379,10 @@ nav a:hover {
 	padding-left: 10px
 }
 
+.icon-space {
+	padding-right: 3px;
+}
+
 .blue-point {
 	position: relative;
 	left: -22px;
