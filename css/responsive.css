@@ -21,6 +21,12 @@
     
     /* Services Zone */
 
+    .services-description p {
+        width: 90%;
+        font-size: 1em;
+        margin-bottom: 45px;
+    }
+
     .services-details-left {
         display: none;
     }
@@ -28,7 +34,29 @@
     .services-details-right {
 		width: 90%;
 		margin: auto;
-	}
+    }
+    
+    .service-detail {
+        flex-direction: column;
+    }
+
+    .service-logo {
+        left: 100px;
+    }
+
+    .text-zone {
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-zone h3 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .text-zone p {
+        text-align: justify;
+    }
     
     /* Portfolio Zone */
 

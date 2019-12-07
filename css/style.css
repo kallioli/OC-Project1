@@ -52,6 +52,10 @@ p {
 	height: 100px;
 }
 
+.upper-title {
+    text-transform: uppercase;
+}
+
 /* Header Zone */
 
 header {
@@ -304,8 +308,8 @@ nav a:hover {
 	vertical-align: middle;
 }
 
-.upper-title {
-    text-transform: uppercase;
+.upper-service {
+	text-transform: uppercase;
 }
 
 .services-description {
