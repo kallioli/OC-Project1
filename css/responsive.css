@@ -18,6 +18,49 @@
     .separation-bar {
         margin-bottom: 25px;
     }
+
+    /* Header Zone */
+
+    .header-menu {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .logo img {
+        width: 200px;
+        margin: 5px auto 10px auto;
+    }
+
+    nav {
+        padding-top: 0;
+        margin: auto;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin-block-start: auto;
+        margin-block-end: auto;
+        padding-inline-start: unset;
+        width: 90%;
+    }
+
+    nav a {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 0.9em;
+        padding-top: 0;
+    }
+
+    nav a:hover {
+        border-top: unset;
+        border-bottom: 3px solid #5cacd2;
+    }
+
+
     
     /* Services Zone */
 
