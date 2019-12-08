@@ -609,8 +609,8 @@ nav a:hover {
 
 .map-background {
 	width: 100%;
-	filter: brightness(90%);
-	-webkit-filter: brightness(90%);
+	filter: brightness(70%);
+	-webkit-filter: brightness(70%);
 }
 
 .map-background:hover {
