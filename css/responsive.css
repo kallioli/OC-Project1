@@ -323,5 +323,118 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    /* Header Zone */
 
+    .logo img {
+        width: 230px;
+        margin: 25px 0 25px 0;
+    }
+
+    nav a {
+        padding: 36px 10px 0 10px;
+        font-size: 1.2em;
+    }
+
+    /* Slider Zone */
+
+    .slider-info {
+        width: 45%;
+    }
+
+    .slider-info h1 {
+        font-size: 1.7em;
+        line-height: 1.4em;
+    }
+
+    .back-line {
+        display: inline;
+    }
+
+    .slider-info p {
+        display: none;
+    }
+
+    .btn-more-info {
+        margin-top: 1.7vw;
+    }
+
+    .btn-left {
+        font-size: 3.0vw;
+        padding-right: 1.2vw;
+    }
+
+    .btn-right {
+        font-size: 3.0vw;
+        padding-left: 1.2vw;
+    }
+
+    /* Services Zone */
+
+    .spacer {
+        display: none
+    }
+
+    .services-description p {
+        width: 100%;
+    }
+
+    .services-details-container {
+        flex-direction: column;
+    }
+
+    .img-services {
+        width: auto;
+    }
+
+    .services-details-right {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .service-detail {
+        flex-direction: column;
+        width: 33%;
+        margin: 0 15px 0 15px;
+    }
+
+    .service-logo {
+        left: 111px;
+    }
+
+    .text-zone {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .text-zone h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    /* Project Zone */
+
+    .projects-description p {
+        width: 100%;
+    }
+
+    .thumbnails {
+        width: 45%;
+    }
+
+    /* Contact Zone */
+
+    .form-container {
+        height: auto;
+        width: auto;
+        margin-left: 77%;
+    }
+
+    .form-field {
+        width: 91%;
+    }
+
+    .message-field {
+        width: 91%;
+    }
 }
