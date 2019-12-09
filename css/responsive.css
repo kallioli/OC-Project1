@@ -61,7 +61,36 @@
         border-bottom: 3px solid #5cacd2;
     }
 
+    /* Slider Zone */
 
+    .slider {
+        display: none;
+    }
+
+    .mobile-slider {
+        display: block;
+        margin-top: 100px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .mobile-slider img {
+        max-height: 300px;
+    }
+
+    .mobile-slider-info {
+        width: 50%;
+        height: 32%;
+        position: absolute;
+        margin-left: 4%;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    .mobile-slider-info h1 {
+        color: white;
+    }
     
     /* Services Zone */
 
@@ -150,7 +179,6 @@
         margin-bottom: auto;
         width: 90%;
     } 
-
 
     /* Contact Form Zone */
 
