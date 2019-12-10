@@ -401,7 +401,7 @@ nav a:hover {
 	/* margin: auto; */
 }
 
-.fa-line-chart
+.fa-chart-line
 {
 	color: rgba(92,173,211,1);
 	border: 1px solid rgba(0,0,0,0.3);
@@ -423,7 +423,7 @@ nav a:hover {
 	padding-bottom: 20px;
 }
 
-.fa-pie-chart {
+.fa-chart-pie {
     color: #5cacd2;
 	border: 1px solid rgba(0,0,0,0.3);
 	border-radius: 50%;
