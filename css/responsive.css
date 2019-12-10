@@ -43,9 +43,8 @@
         display: flex;
         list-style-type: none;
         justify-content: center;
-        margin-block-start: auto;
-        margin-block-end: auto;
-        padding-inline-start: unset;
+        margin: auto;
+        padding: unset;
         width: 100%;
     }
 
