@@ -58,6 +58,10 @@ p {
 
 /* Header Zone */
 
+#top {
+	padding-top: 20px;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -110,7 +114,7 @@ nav a:hover {
 /* Slider Zone */
 
 .slider {
-    margin-top: 100px;
+    margin-top: 80px;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
@@ -284,7 +288,7 @@ nav a:hover {
 /* Service Zone */
 
 #services {
-    padding-top: 40px;
+    padding-top: 70px;
 	padding-bottom: 55px;
 }
 
@@ -370,8 +374,6 @@ nav a:hover {
 
 .service-logo {
     display: flex;
-	/* position: relative; */
-	/* top: -12px; */
 	width: 125px;
 	min-width: 125px;
 	justify-content: center;
@@ -394,8 +396,7 @@ nav a:hover {
 	color: rgba(92,173,211,1);
 }
 
-.fa-chart-line
-{
+.fa-chart-line {
 	color: rgba(92,173,211,1);
 	border: 1px solid rgba(0,0,0,0.3);
 	border-radius: 50%;
@@ -405,8 +406,7 @@ nav a:hover {
 	padding-bottom: 20px;
 }
 
-.fa-cubes
-{
+.fa-cubes {
 	color: #5cacd2;
 	border: 1px solid rgba(0,0,0,0.3);
 	border-radius: 50%;
@@ -442,7 +442,7 @@ nav a:hover {
 /* Portfolio Zone */
 
 .projects {
-    padding-top: 40px;
+    padding-top: 70px;
 	padding-bottom: 55px;
 	background-color: rgb(245, 245, 245);
 }
