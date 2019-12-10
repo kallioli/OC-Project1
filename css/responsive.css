@@ -68,7 +68,7 @@
 
     .mobile-slider {
         display: block;
-        margin-top: 100px;
+        margin-top: 80px;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -200,6 +200,10 @@
 }
 
 @media screen and (min-width: 531px) and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
 
     /* Header Zone */
 
