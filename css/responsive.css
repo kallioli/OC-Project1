@@ -1,8 +1,5 @@
 @media screen and (max-width: 530px) {
 
-    .spacer {
-        display: none;
-    }
 
     .container {
         width: 100%;
@@ -252,10 +249,6 @@
 
     /* Services Zone */
 
-    .spacer {
-        display: none
-    }
-
     .services-description p {
         width: 100%;
     }
@@ -369,10 +362,6 @@
     }
 
     /* Services Zone */
-
-    .spacer {
-        display: none
-    }
 
     .services-description p {
         width: 100%;
