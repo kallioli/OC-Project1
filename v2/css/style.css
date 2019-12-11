@@ -698,6 +698,7 @@ footer {
 	height: auto;
 	background-color: #fff;
 	margin: 40px 0 40px 0;
+	color: #5C5C5C;
 }
 
 .footer-content {
@@ -726,13 +727,19 @@ footer {
 	text-align: end;
 }
 
-.block-right p {
+.block-right a {
 	display: inline-block;
 	margin-top: auto;
     margin-bottom: auto;
     margin-left: 3px;
     margin-right: 3px;
 	padding-top: 0.6em;
+	text-decoration: none;
+	color: #5C5C5C;
+}
+
+.block-right a:hover {
+	color: rgba(92,173,211,1);
 }
 
 .footer-menu-content {
@@ -752,7 +759,7 @@ footer {
 	align-items: center;
 }
 
-.social-icon {
+.social-icon a {
 	width: 40px;
 	height: 40px;
 	border: #5C5C5C solid 1px;
@@ -760,4 +767,13 @@ footer {
 	display: inline-block;
 	text-align: center;
 	margin-right: 5px;
+	color: #fff;
+	background-color: #5c5c5c;
 }
+
+.social-icon a:hover {
+	border: #5cacd2 solid 1px;
+	color: #5cacd2;
+	background-color: #fff;
+}
+
