@@ -16,10 +16,68 @@
         margin-bottom: 25px;
     }
 
+
+    /* Mobile Menu */
+
+    #top {
+        padding-top: unset;
+    }
+
+    .topnav {
+       overflow: hidden;
+       background-color: #333;
+       position: relative;
+       display: block;
+    }
+      
+    .topnav #myLinks {
+       display: none;
+    }
+      
+    .topnav a {
+       color: white;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 17px;
+       display: block;
+    }
+
+    .topnav img {
+        width: 200px;
+    }
+      
+    .topnav a.icon {
+       background: #fff;
+       color: #686c71;
+       display: block;
+       position: absolute;
+       right: 5px;
+       top: 5px;
+       font-size: 1.7em;
+    }
+      
+    .topnav a:hover {
+       background-color: #fff;
+       color: #686c71;
+    }
+      
+    .active {
+       background-color: #fff;
+       color: white;
+    }
+
+    #myLinks {
+        padding-left: 5px;
+    }
+
     /* Header Zone */
 
+    header {
+        display: none;
+    }
+
     .header-menu {
-        flex-direction: column;
+       flex-direction: column;
     }
 
     .logo {
@@ -65,7 +123,7 @@
 
     .mobile-slider {
         display: block;
-        margin-top: 80px;
+        margin-top: unset;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -89,6 +147,10 @@
     }
     
     /* Services Zone */
+
+    #services {
+        padding-top: unset;
+    }
 
     .services-description p {
         width: 90%;
@@ -128,6 +190,10 @@
     }
     
     /* Portfolio Zone */
+
+    .projects {
+        padding-top: 10px;
+    }
 
     .upper-title {
         width: 90%;
@@ -237,6 +303,10 @@
 
     .container {
         width: 90%;
+    }
+
+    .topnav {
+        display: none;
     }
 
     /* Header Zone */
@@ -389,6 +459,10 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .topnav {
+        display: none;
+    }
     
     /* Header Zone */
 
