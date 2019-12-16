@@ -134,12 +134,7 @@
     }
 
     .mobile-slider-info {
-        width: 50%;
-        height: 32%;
-        position: absolute;
-        margin-left: 4%;
-        margin-top: 0;
-        z-index: 1;
+        display: none;
     }
 
     .mobile-slider-info h1 {
