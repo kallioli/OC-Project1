@@ -1,0 +1,299 @@
+@media screen and (max-width: 530px) {
+
+    .spacer {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .upper-title {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5em;
+    }
+
+    .separation-bar {
+        margin-bottom: 25px;
+    }
+
+    /* Header Zone */
+
+    .header-menu {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .logo img {
+        width: 200px;
+        margin: 5px auto 10px auto;
+    }
+
+    nav {
+        padding-top: 0;
+        margin: auto;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        margin-block-start: auto;
+        margin-block-end: auto;
+        padding-inline-start: unset;
+        width: 100%;
+    }
+
+    nav a {
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 1em;
+        padding-top: 0;
+    }
+
+    nav a:hover {
+        border-top: unset;
+        border-bottom: 3px solid #5cacd2;
+    }
+
+
+    
+    /* Services Zone */
+
+    .services-description p {
+        width: 90%;
+        font-size: 1em;
+        margin-bottom: 45px;
+    }
+
+    .services-details-left {
+        display: none;
+    }
+
+    .services-details-right {
+		width: 90%;
+		margin: auto;
+    }
+    
+    .service-detail {
+        flex-direction: column;
+    }
+
+    .service-logo {
+        left: 100px;
+    }
+
+    .text-zone {
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-zone h3 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .icon-space {
+        padding-right: 4px;
+    }
+
+    .text-zone p {
+        text-align: justify;
+    }
+    
+    /* Portfolio Zone */
+
+    .upper-title {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
+    .projects-description p {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .projects-menu {
+        width: 90%;
+        min-width: unset;
+        margin-bottom: auto;
+        margin-top: 35px;
+    }
+
+    .button {
+        font-size: 0.8em;
+        padding: 12px 2px 12px 2px;
+        width: 25%;
+    }
+
+    .cursor {
+        left: 40%;
+    }
+
+    .project-content {
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+
+    .thumbnails {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        width: 90%;
+    } 
+
+
+    /* Contact Form Zone */
+
+    .contact-container {
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .map-background {
+        background-color: rgb(245,245,245);
+    }
+
+	.form-container {
+		position: static;
+		margin: auto;
+		width: 100%;
+		background-color: rgb(245,245,245);
+    }
+    
+    .form-content p {
+        line-height: 1.53em;
+    }
+    
+}
+
+@media screen and (min-width: 531px) and (max-width: 768px) {
+
+    /* Header Zone */
+
+    .logo img {
+        width: 230px;
+        margin: 25px 0 25px 0;
+    }
+
+    nav a {
+        padding: 36px 10px 0 10px;
+        font-size: 1.2em;
+    }
+
+    /* Slider Zone */
+
+    .slider-info {
+        width: 45%;
+    }
+
+    .slider-info h1 {
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+
+    .back-line {
+        display: inline;
+    }
+
+    .slider-info p {
+        display: none;
+    }
+
+    .btn-more-info {
+        margin-top: 1.7vw;
+    }
+
+    .btn-left {
+        font-size: 3.0vw;
+        padding-right: 1.2vw;
+    }
+
+    .btn-right {
+        font-size: 3.0vw;
+        padding-left: 1.2vw;
+    }
+
+    /* Services Zone */
+
+    .spacer {
+        display: none
+    }
+
+    .services-description p {
+        width: 100%;
+    }
+
+    .services-details-container {
+        flex-direction: column;
+    }
+
+    .img-services {
+        width: auto;
+    }
+
+    .services-details-right {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .service-detail {
+        flex-direction: column;
+        width: 33%;
+        margin: 0 15px 0 15px;
+    }
+
+    .service-logo {
+        left: 111px;
+    }
+
+    .text-zone {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .text-zone h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    /* Project Zone */
+
+    .projects-description p {
+        width: 100%;
+    }
+
+    .thumbnails {
+        width: 45%;
+    }
+
+    /* Contact Zone */
+
+    .form-container {
+        height: auto;
+        width: auto;
+        margin-left: 71%;
+    }
+
+    .form-field {
+        width: 91%;
+    }
+
+    .message-field {
+        width: 91%;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
