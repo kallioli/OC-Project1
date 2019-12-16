@@ -72,7 +72,7 @@
     }
 
     .mobile-slider img {
-        max-height: 300px;
+        width: 100%;
     }
 
     .mobile-slider-info {
