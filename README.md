@@ -1,49 +1,48 @@
-# Projet 1 OpenClassrooms
-## Intégrer la maquette du site d'une agence web 
+# OpenClassrooms Project 1
+## Integrate the layout of a web agency's site
 
-### Projet Validé :white_check_mark:
+### Validated Project :white_check_mark:
 https://webagency.kevinallioli.com/
 
+You have just been hired by a web agency, the WebAgency, which creates websites for various clients.
+However, they themselves recognize that their current site is aging because they have little time to work on it.
+Of course, it seems that shoemakers have the worst shoes, but still...
 
-Vous venez d'être embauché(e) par une agence Web, la WebAgency, qui réalise des sites web pour différents clients. 
-Cependant, ils reconnaissent eux-mêmes que leur site actuel est vieillissant car ils ont peu de temps pour travailler dessus. 
-Certes, il paraît que les cordonniers sont les plus mal chaussés, mais tout de même...
+So, for your first mission, we propose you to take care of the redesign of the agency's website.
 
-On vous propose donc, pour votre première mission, de vous occuper de la refonte du site de l'agence.
+The site must fit on a page with a menu that remains visible, at the top of the page, even when you move around the page.
+The different sections expected are :
 
-Le site doit tenir sur une page avec un menu qui reste visible, en haut de la page, meme lorsque l'on se déplace dans la page. 
-Les différentes sections attendues sont :
+* A first welcome screen, very visual
+* The list of services offered by the agency
+* Examples of projects already completed
+* A card with a contact form (we don't ask you to run the form, just to display it).
 
-* Un premier écran d'accueil de bienvenue, très visuel
-* La liste des services offerts par l'agence
-* Des exemples de projets déjà réalisés
-* Une carte avec un formulaire de contact (on ne vous demande pas de faire marcher le formulaire, juste de l'afficher).
+### Evaluation referential
 
-### Référentiel d'évaluation
+**Define the content of a web page from a mock-up**
 
-**Définir le contenu d'une page web à partir d'une maquette**
+* All the content defined by the model is present
+* Text content is relevant and grammatically correct
+* The visual appearance corresponds to the computer screen model.
+* The model is adapted in a relevant way on a mobile terminal.
 
-* L'ensemble du contenu défini par la maquette est présent
-* Le contenu texte est pertinent et grammaticalement correct
-* L'aspect visuel correspond à la maquette sur écran d'ordinateur
-* La maquette est adaptée de manière pertinente sur un terminal mobile
+### Coding the structure of a web page in HTML
 
-**Coder la structure d'une page web en HTML**
+* HTML page passes w3c HTML validation without error
+* HTML tags are defined with the relevant HTML 5 semantics
+* The icons are created with a relevant tool, such as font-awesome.
 
-* La page HTML passe la validation w3c HTML sans erreur
-* Les balises HTML sont définies avec la sémantique HTML 5 pertinente
-* Les icônes sont crées avec un outil pertinent, type  font-awesome
+### Coding the presentation of a web page in CSS
 
-**Coder la présentation d'une page web en CSS**
+* CSS code passes w3c CSS validation
+* The CSS code is written in one or more CSS files.
+* No CSS code is applied via a style attribute in an HTML tag.
+* The area with the menu remains visible, at the top of the page, even when you move around the page.
 
-* Le code CSS passe la validation w3c CSS
-* Le code CSS est écrit dans un ou plusieurs fichier CSS
-* Aucun code CSS n'est appliqué via un attribut style  dans une balise HTML
-* La zone avec le menu reste visible, en haut de la page, même lorsque l'on se déplace dans la page
+### Manage responsiveness with Media Queries
 
-**Gérer la responsivité avec les Media Queries**
-
-* Le viewport est configuré dans l'en-tête de la page HTML
-* (Au moins) Un breakpoint pertinent est défini
-* Des règles CSS @media  et/ou des feuilles de styles dédiées identifiées par un attribut mediasont utilisées
-* Aucun Framework (type Bootstrap) n'est utilisé pour ce projet
+* The viewport is configured in the header of the HTML page.
+* (At least) A relevant breakpoint is defined
+* CSS @Media rules and/or dedicated style sheets identified by a media attribute are used.
+* No Framework (Bootstrap type) is used for this project.
