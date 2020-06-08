@@ -27,20 +27,20 @@ The different sections expected are :
 * The visual appearance corresponds to the computer screen model.
 * The model is adapted in a relevant way on a mobile terminal.
 
-### Coding the structure of a web page in HTML
+**Coding the structure of a web page in HTML**
 
 * HTML page passes w3c HTML validation without error
 * HTML tags are defined with the relevant HTML 5 semantics
 * The icons are created with a relevant tool, such as font-awesome.
 
-### Coding the presentation of a web page in CSS
+**Coding the presentation of a web page in CSS**
 
 * CSS code passes w3c CSS validation
 * The CSS code is written in one or more CSS files.
 * No CSS code is applied via a style attribute in an HTML tag.
 * The area with the menu remains visible, at the top of the page, even when you move around the page.
 
-### Manage responsiveness with Media Queries
+**Manage responsiveness with Media Queries**
 
 * The viewport is configured in the header of the HTML page.
 * (At least) A relevant breakpoint is defined
